@@ -1,3 +1,10 @@
+Access the styles
+
+1. Inline 
+2. Internal 
+3. External 
+4. Import 
+
 1. colors in CSS
 
 - color names
@@ -11,7 +18,8 @@ List of Selectors
 
 Simple Selector - Select elements based on name, id and class
 Combinator slector - Select elements based on relationship between them
-Pseudo-class selectors
+Pseudo-class selectors - selecctor which matches components based on the additional condition 
+CSS - color, import, background, font 
 Pseudo-Elemnts selectors
 Attribute Selectors
 
@@ -29,3 +37,4 @@ CSS selector can contain more than one simple selector.
  2. child selector (>)
  3. adjacent sibling selector (+) - 
  4. general sibling selector (~)
+
