@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            #divFirst {
+               border: 10px dotted black; 
+               padding: 15px;
+               background-color: lightblue;
+               background-clip: border-box;
+            }
+
+            #divSecond {
+                border: 10px dotted black;
+                padding: 15px;
+                background-color: lightblue;
+                background-clip: padding-box;
+            }
+
+            #divThird {
+                border: 10px dotted black;
+                padding: 15px;
+                background-color: lightblue;
+                background-clip: content-box;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Background Clip</h1>
+        <p>
+            The backgroun clip defines how far the background 
+            should extend with in element.
+        </p>
+        <p>
+            Background-clip : border-box ( This is default)
+        </p>
+        <div id="divfirst">
+            <p>
+                The background extends behind the border
+            </p>
+        </div>
+        <p>
+            Background-clip : padding-box
+        </p>
+        <div id="divSecond">
+            <p>
+                The border extends to the inside of the border
+            </p>
+        </div>
+        <p>
+            Background-clip: Content-box
+        </p>
+        <div id="divThird">
+            <p>
+                The background extends to the edge of the conetnt box
+            </p>
+        </div>
+    </body>
+</html>

@@ -38,3 +38,62 @@ CSS selector can contain more than one simple selector.
  3. adjacent sibling selector (+) - 
  4. general sibling selector (~)
 
+Opacity - is a property which specifies the tranparency 
+          of an element 
+          It can take value between 0.0 to 1.0 
+          0.1, 0.2,0.3...1.0
+          The lower the value the more tranparent it is 
+
+RGB - This is a color value 
+
+RGBA - if you don't want to apply opacity to child elements 
+
+A - Specifies the Opacity and a value between 
+    0.0 (fully transparent) to 1.0 (fully opaque)
+
+RGBA - RED GREEN BLUE ALPHA :rgba(red, gree, blue, alpha)
+
+#FF SE C2 
+rgb(0,0,128)
+rgba(0,128,0,0.3)
+
+Which one to USe RGB or HEX ?
+
+It depends on choice 
+No performance differences ( both work in similar manner)
+if we are familiar with HTML devlopement - we will normally use Hexadecimal number 
+if we are from Deginer ( Photoshop) background - rgb 
+Graphic editors - will both have hexa and RGB but when it comes to copying the values hex will have single textbox 
+
+HEX - More convenient 
+    - Easy to copy 
+    - easier for daily usage 
+
+RGB - Tranparency ( opacity) 
+RGBA - RGBAlpha (0,255,5, 0.3)
+
+CSS color Module leve draft ( alpha)
+8digit Hexadecimal code 
+
+#RRGGBBAA
+
+#00ffaa80 == rgba(0,255,170, 0.5)
+
+#fff easier when comparing with this rgb(255,255,255)
+
+Background-Position 
+--------------------
+
+1. Length values (E.g. 100px 20px)
+2. Percentage (E.g 100% 20%)
+3. Keywords (E.g. right top )
+4. Mix (E.g right 50px)
+
+background-clip
+-----------------
+it defines hw far the background should extend with in element
+
+it has 3 major properties 
+1. border-box ( deafult)
+2. padding-box
+3. content-box
