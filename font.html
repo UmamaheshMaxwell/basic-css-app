@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Font in CSS</title>
+        <style>
+            .pFamily {
+                font-family:  Arial, sans-serif
+            }
+
+            .pStyle {
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Font-Family</h1>
+        <p>
+            Font-Family has several font names and has a fallback system <br>
+            If the broser doesn't support the first-font type it tries the next font and so on. <br>
+            if the name of the font is more than one word "Times New Roman" <br>
+
+            serif - have small lines at the end on characters
+
+            sans-serif - means without, without lines - do not have lines at the end of characters.
+
+        </p>
+        <p class="pFamily">
+            This is a new paragraph
+        </p>
+        <p style="font-family: Verdana">
+            This is about Verdana font-family
+        </p>
+        <p style="font-family: Rockwell ;">
+            This is about Rockwell Font-family
+        </p>
+        <p style="font-family: Century Gothic;">
+            This is about Century Gothic font-family
+        </p>
+        <h1>Font-Style</h1>
+        <ul>
+            <li>Normal - Browser displays normal font style</li>
+            <li>Italic - Browser displays an italic font style</li>
+            <li>Oblique - Browser displays an oblique font style</li>
+            <li>Initial - Sets this property to default value</li>
+            <li>Inherit - Inherits this property frm its parent element</li>
+        </ul>
+        <p class="pStyle">
+            This is about italic font-style
+        </p>
+        <p style="font-style:oblique;">
+            This is about oblique font-style
+        </p>
+        <div style="font-style: italic;">
+            <p style="font-style:inherit">
+                This is about inherit font-style
+            </p>
+        </div>
+        <p style="font-style:normal;">
+            This is about normal font-style
+        </p>
+        <p style="font-style:initial;">
+            This is about normal font-style
+        </p>
+    </body>
+</html>

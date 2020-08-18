@@ -97,3 +97,12 @@ it has 3 major properties
 1. border-box ( deafult)
 2. padding-box
 3. content-box
+
+font
+---------
+font-family - chances the face of the font
+font-style - mkes font italic 
+font-weight - incraeses or decreses how bold or light our font appears
+font-variant - create small caps effect, text will be in capital letters but in small size
+font-size - increase or decraese the font size
+font - short to specify the font properties
