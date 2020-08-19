@@ -106,3 +106,48 @@ font-weight - incraeses or decreses how bold or light our font appears
 font-variant - create small caps effect, text will be in capital letters but in small size
 font-size - increase or decraese the font size
 font - short to specify the font properties
+
+Font-size
+------------
+Absolute                 Relative
+----------              ----------
+- pixels (px)           - em
+                        - % 
+
+deafult font-size is 16px = 1em
+font-size with pixels - user will have full control over the text
+
+Relative
+---------
+Allow users to resize the text
+
+1em is equal to 16px which is default size. 
+
+Pixel to em
+------------
+pixels/16 = em
+
+Responsive Font size ( Text size will follow the size of the browser window)
+---------------------
+16px
+1em
+25%
+10vw
+
+The text size can be set with a "vw" unit which means "Viewport Width"
+
+
+CSS Text 
+------------
+How to manipulate text using css properties
+
+1.  color - Set the color of the text
+2.  direction - set the text direction (ltr -Left to Right , rtl - Right to Left)
+3.  letter-spacing - Will help us add or subtract space between the letters that make up a word
+4.  word-spacing - will help us add or subtract space between our words of sentence
+5.  text-indent - indent the text of a paragraph
+6.  text-align - align the text of a document
+7.  text-transform - help us convert text to uppercase or lowercase letters
+8.  text-decoration - we can underline, overine and strike through the text
+9.  white-space - to control the flow and format of the text
+10. text-shadow - will help us set text shadow around a text
