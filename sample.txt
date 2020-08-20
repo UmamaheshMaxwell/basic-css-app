@@ -151,3 +151,32 @@ How to manipulate text using css properties
 8.  text-decoration - we can underline, overine and strike through the text
 9.  white-space - to control the flow and format of the text
 10. text-shadow - will help us set text shadow around a text
+
+Pseudo-Elemnt Selectors
+-----------------------
+
+Used to style specified parts of an element. we don't need javascript
+or any other script to bring the effect.
+
+1. Styling the first letter or first line of an element.
+2. Insert the content before or after the content of an element 
+
+        Hello,  Good Morning 
+                Good Morning Everybody
+        
+syntax 
+--------
+selector::pseduo-element {
+    color : red
+}
+
+:: (double colon) is introduced in css3
+CSS2, cSS1 - Single colon syntax was used for both pseduo classes and pseduo elements
+             
+content - property in CSS which is used to generate the content dynamically 
+
+::first-letter - Adds a special style to the first letter of text
+::first-line - Adds a special style to the first line of the text
+::before - Adds a text before the content
+::after - Adds a text / image after the content
+::selection - Matches the portion of an elemnt that is selected

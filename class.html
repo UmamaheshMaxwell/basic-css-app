@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Pseduo with class</title>
+        <style>
+            p::first-letter {
+                color: crimson;
+                font-size: xx-large;
+            }
+            p.message::first-line {
+                color: blue;
+                font-size: 300%;
+            }
+            p.info::first-line {
+                color:darkmagenta;
+                font-size: x-large;
+            }
+
+        </style>
+    </head>
+    <body>
+        <p>Angular is a Javascript Framework</p>
+        <p class="message">
+            To Learn Angular you need to have a basic understanding of 
+            javascript, HTML and CSS3.
+        </p>
+        <p class="info">
+            If you want to develop NodeJs Applications you need to have 
+            knowledge over javascript.
+        </p>
+    </body>
+</html>
