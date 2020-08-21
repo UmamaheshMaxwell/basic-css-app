@@ -180,3 +180,15 @@ content - property in CSS which is used to generate the content dynamically
 ::before - Adds a text before the content
 ::after - Adds a text / image after the content
 ::selection - Matches the portion of an elemnt that is selected
+
+Attribute Selector 
+------------------
+
+Used to select elements with a specified attribute 
+
+for e.g  a[target] {
+    color:red
+}
+
+Selects all <a> elements with a target attribute
+
