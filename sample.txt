@@ -192,3 +192,44 @@ for e.g  a[target] {
 
 Selects all <a> elements with a target attribute
 
+Borders, Margin , padding, CSS BOX Model  
+
+Borders
+--------
+Used to specify the style width and color of an element's border 
+
+Border-Style 
+------------
+what kind of border to display 
+
+dotted - this displays dotted border
+dahsed - this displays dahsed border
+solid -  This displays a solid border
+double - this diplays  a double border 
+groove - This displays a 3D grooved border, depends on border color
+ridge - This displays a 3D ridge border, depends on border color
+inset - This displays a 3D inset border, depends on border color
+outset - This displays a 3D outset border. depend on border color 
+none - This doesn't display any border
+hidden - defines a hidden border
+
+
+Border-width  ( This will not work alone, requires other porperty like border-style)
+-------------
+Specifies the width of our four borders ( top, right, bottom, left)
+
+we can specifiy width using specific size - e.g. 3px , 5px, 20px
+
+we can use pre-defined values - think , medium. thick 
+
+it can have one to four values 
+
+top border, right border, bottom border, left border
+
+Border-color ( This will not work alone, use border-style property)
+-----------
+used to set the color of the four borders
+
+Border-sides  ( top, right, bottom, left)
+------------
+used to specify border for each side
