@@ -233,3 +233,79 @@ used to set the color of the four borders
 Border-sides  ( top, right, bottom, left)
 ------------
 used to specify border for each side
+
+Border-shorthand
+-----------------
+To Shorten the code 
+
+Border-style 
+Border-width
+Border-color 
+
+Border : Style width color 
+
+Order of Border properties 
+
+1. Border-width 
+2. Border-Style
+3. Border-color 
+
+Rounded Borders
+---------------
+Rounded borders will give round shape at the edges
+
+border-radius property is used to add rounded borders to an element
+
+
+Margin
+-------
+Used to create a space around our elements, ouside of any defined borders
+
+It has four properties when it comes to defining the sides
+
+margin-top
+margin-right
+margin-bottom
+margin-left 
+
+Can have values - auto ( Browser caculates the margin)
+                - length ( specifiy margin in px, pt)
+                - % ( margin in % of width)
+
+* Can have negative values
+
+Margin shorthand
+----------------
+margin - shorthand for the margin property
+
+if margin has 4 values
+----------------------
+
+margin : 25px   50px     75px    100px
+         top    right    bottom  left
+
+if margin has 3 values
+----------------------
+
+margin : 25px      50px            75px 
+         top    left and right     bottom
+
+if margin has 2 values
+----------------------
+
+margin :     25px                   50px      
+         top and bottom        left and right     
+
+if margin has 1 value ( all four margins are of 25px)
+----------------------
+
+margin :     25px      
+         top, bottom,left and right
+
+
+Margin collpase
+---------------
+Top and bottom margin of elements are collapsed into single margin
+
+first element margin is 150 px and second element margin is 50 px 
+then margin will be collapsed total margin will become 150px 
