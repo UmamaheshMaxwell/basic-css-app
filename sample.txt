@@ -1,3 +1,16 @@
+1. selectors 
+2. Adding CSS 
+3. Comments
+4. Colors 
+5. backgrounds
+6. Borders 
+7. Margins
+8. Paddings
+10. Height and Width
+11. Text
+12. Fonts
+13. Outline
+
 Access the styles
 
 1. Inline 
@@ -309,3 +322,63 @@ Top and bottom margin of elements are collapsed into single margin
 
 first element margin is 150 px and second element margin is 50 px 
 then margin will be collapsed total margin will become 150px 
+
+padding
+-------
+Space between element's content and element's border
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+It can have followin values - lenth - specified using px, pt, cm 
+                               %    -  % width
+
+* Negative values are not allowed
+
+Padding + Element Width
+-----------------------
+
+Width - Specifies the width of an element's content area
+
+if element has specified width then the padding added to that elelemnt 
+will be added to the total width of an element,
+
+Height and Width 
+-----------------
+Sets the height and width of an element
+
+These can have values - auto - broswer calculates height and width
+                      - length - specified in px, pt and cm
+                      - % - % of the conataining block
+                      - intial - deafult value
+                      - inherit - inherits from parent
+
+
+Outline
+-------
+An outline is a aline that is drawn around elements outside the border
+
+1. Outline is drawn outside the element's border
+2. Outline is not part of element's dimesnions 
+3. Element's width and height will not be affected by the width of outline
+
+properties
+----------
+outline-style - Sets the style of an outline
+outline-width - sets the width of an outline
+outline-color - sets the color of an outline
+outline-offset - Space between outline and border
+outline - Short hand notation , outline-width outline-style outline-color
+
+outline-style : 
+dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+
