@@ -382,3 +382,25 @@ ridge
 inset
 outset
 
+Outline-width
+--------------
+
+Specifies the width of the outline
+
+it has values like thin ,medium, thick, specific size ( in px, pt)
+
+Outline-Color
+--------------
+Specifies color to the outline
+
+Outline-offset
+--------------
+Adds space between an outline and border of an element
+
+Box Model
+----------
+All HTML elements can be considred as boxes
+
+Box model is a box that wraps around every HTML element
+
+You need to have a solid understanding of box model to set the width and height of an element
