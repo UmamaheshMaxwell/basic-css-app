@@ -10,6 +10,7 @@
 11. Text
 12. Fonts
 13. Outline
+14. HTML Lists using CSS
 
 Access the styles
 
@@ -404,3 +405,42 @@ All HTML elements can be considred as boxes
 Box model is a box that wraps around every HTML element
 
 You need to have a solid understanding of box model to set the width and height of an element
+
+HTML Lists using CSS
+---------------------
+UL - unorderd List - items are marked with bullets
+OL - Ordered List - items are marked with numbers or letters.
+
+CSS Lists
+----------
+1. set different list item markers for unordered and ordered list
+2. set an image as the list item 
+3. Add background colors
+
+Position of the items
+---------------------
+list-style-position specifies the position of list item markers
+
+1. outside - This means bullet points will be placed outside the list items 
+2. Inside - This means bulluet points will be placed inside the list items 
+
+display
+---------
+How an element is displayed
+
+1. Every element has a default display value depnding on what type of element it is.
+2. The default value for the most of the elements is Block or Inline
+
+Block-level elements
+--------------------
+Always starts on a new line
+takes up full width available
+
+e.g. DIV, H1-H6, P, Form, Header, Footer, Section
+
+Inline elements
+----------------
+Doesn't start on a new line
+takes up as much width as necessary
+
+e.g. span, a, image 
