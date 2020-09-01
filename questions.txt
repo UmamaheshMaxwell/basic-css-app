@@ -1,2 +1,0 @@
-1. show how to align div to the center of the page?
-2. will outline be part of element width and height ? No

@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title> Combinator Selector Examples - 4 types</title>
+    <style>
+        div {
+            color:orange;
+        }
+
+        div > section{
+            background-color: aqua;
+            color: black;
+        }
+        div p{
+            background-color:blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        This is my first div
+        <p><em><strong><u>1. Descendant Selector</u></strong></em></p>
+        <p>This is javascript examples</p>
+        <p>This is Node JS examples</p>
+        <p>This is Angular examples</p>
+        <section> 
+            this is my section
+            <p> Div > section color is overriden but Background-color
+                is not getting over rided why ???</p>
+        </section>
+    </div>
+    <p>
+        this is 2nd Div
+    </p>
+    <p>
+        this is 3rd div
+    </p>
+</body>
+
+</html>

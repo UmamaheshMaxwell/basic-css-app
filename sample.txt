@@ -424,6 +424,20 @@ list-style-position specifies the position of list item markers
 1. outside - This means bullet points will be placed outside the list items 
 2. Inside - This means bulluet points will be placed inside the list items 
 
+Document flow ( Order of code elelemnts)
+--------------
+It is an arrangement of page elements as defined by CSS positioning statements 
+and order of the HTML elements
+
+This is to say how each element takes up space and how other elements 
+position themseleves
+
+There are 3 ways in which we can position the elements 
+
+1. display
+2. position
+3. float
+
 display
 ---------
 How an element is displayed
@@ -440,7 +454,71 @@ e.g. DIV, H1-H6, P, Form, Header, Footer, Section
 
 Inline elements
 ----------------
-Doesn't start on a new line
+Doesn't start on a new line, instead display next to each other
 takes up as much width as necessary
 
 e.g. span, a, image 
+
+Override the default display value
+----------------------------------
+
+1. Every element has default diaply value, however we can override this.
+2. Changing the inline element to block-level element and vice versa is possible
+   this can help making a page look specific way
+
+
+Note: Setting the display property of an elelement only changes how the elelemnt is 
+      displayed. not what kind of elelemnt it is.
+
+
+Position
+--------
+Specifies the type of positioning method used for an element.
+
+
+It has 5 different value
+
+1. static - default 
+2. relative 
+3. Absolute
+4. fixed
+5. sticky
+
+Static 
+---------
+
+1. HTML elements are positioned static by default
+2.  Static positioned elements are not affected by top, right, bottom, left 
+3. Always positioned according to the normal flow of the page
+
+top vs margin top
+-----------------
+top - is a position property, it is used with position property 
+      such as relative or absolute
+
+margin-top - Element's own property
+
+1. static - default
+--------------------
+This is a default position and will have no impact even after 
+adding top. right, bottom, left positions
+
+2. Relative 
+------------
+It is positioned relative to its normal position
+
+3. Absolute
+------------
+Absolutely positions an element inside of a parent container that 
+it can reference
+
+This completely removes the element from document flowand everything 
+else renders as if that absolute element doesn't even exist at all 
+
+4. fixed
+---------
+
+
+5. Sticky
+---------
+

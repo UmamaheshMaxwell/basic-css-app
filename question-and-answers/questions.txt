@@ -1,0 +1,14 @@
+Theoritical Questions
+-------------------------
+1. will outline be part of element width and height ? No
+
+
+Coding Questions
+-----------------
+1. Show how to align div to the center of the page?
+
+2. Font size is not getting changed only color and background-color is working ?
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/::selection
+
+3. Why backgroung-color is not getting changed here ?

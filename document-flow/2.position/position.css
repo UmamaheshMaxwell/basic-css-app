@@ -1,0 +1,24 @@
+.grand-parent {
+    background-color:gray;
+    padding: 5px;
+}
+.parent {
+    background-color: #00AAFF;
+    padding: 5px;
+}
+
+.child {
+    padding: 5px;
+}
+
+.child-one {
+    background-color: rgb(116,255,116);
+}
+
+.child-two {
+    background-color: rgb(258,117,117);
+}
+
+.child-three {
+    background-color: rgb(255,116,232);
+}
