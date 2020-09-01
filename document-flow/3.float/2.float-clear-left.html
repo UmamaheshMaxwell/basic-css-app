@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Float Clear</title>
+        <style>
+            #div-parent{
+                border:1px solid black;
+            }
+            #div-child1 {
+                width: 100px;
+                height: 100px;
+                background-color: #FF0000;
+                float:left;
+
+            }
+            #div-child2 {
+                width: 100px;
+                height: 100px;
+                background-color: #00FF00;
+                float: left;
+            }
+            #div-child3 {
+                width: 100px;
+                height: 100px;
+                background-color: #0000FF;
+                float: left;
+            }
+
+            .clear-left::after {
+                content: " ";
+                display: block;
+                clear: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div-parent" class="clear-left">
+            <div id="div-child1"></div>
+            <div id="div-child2"></div>
+            <div id="div-child3"></div>
+        </div>
+    </body>
+</html>

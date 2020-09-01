@@ -505,20 +505,52 @@ adding top. right, bottom, left positions
 
 2. Relative 
 ------------
-It is positioned relative to its normal position
+It is positioned relative to its normal position, 
+we can relatively position the element by uding top, right,
+bottom and left
 
 3. Absolute
 ------------
 Absolutely positions an element inside of a parent container that 
 it can reference
 
-This completely removes the element from document flowand everything 
+This completely removes the element from document flow and everything 
 else renders as if that absolute element doesn't even exist at all 
 
 4. fixed
 ---------
 
+Very similar to absolute but with some minor caveats 
+
+always fixed based on the entire HTML elelemnt, it has nothing do 
+with parent element
+
+Unique thing about fixed elelemnts is that they stay in the same place
 
 5. Sticky
 ---------
 
+Combination of both relative position and fixed position into one.
+
+float
+------
+Specifies how an elelemtn should float
+
+It is sued for positioning and formatting 
+
+for e.g.  It will allow an image to float to left of the text 
+          in a container
+
+float can have left, right, none 
+
+Float: clear
+------------
+clears the effect pf floating on the parent element.
+
+clear-left
+-----------
+clears the effect of floating left on its parent element
+
+Clear-right
+-----------
+Clears the effect of floating right on its parent element
