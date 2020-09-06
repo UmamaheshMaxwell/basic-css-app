@@ -554,3 +554,174 @@ clears the effect of floating left on its parent element
 Clear-right
 -----------
 Clears the effect of floating right on its parent element
+
+
+Overflow
+-----------
+This controls what happens to content that is big to fit into a specified area
+
+It specifies whether to clip (cut or trim) the content or add scrollbar when the 
+content of elelemnt is too big 
+
+It has got following values 
+
+visible - Default. The overflow is not clipped, content renderes outside the 
+          element's box
+
+hidden - The overflow is clipped and the rest of the content will be invisible
+
+scorll - The oerflow is clipped, scrollbar is added to content to see the rest
+         of the content
+
+         This will add scrollbar both horizontally and vertically
+
+auto - This is similar to scroll, but it adds scrollbar only when necessary
+
+Note: Overflow property only works for block-level elements with a specified height
+-----
+
+Align elelements ( Horizontal align or Vertical Align)
+------------------------------------------------------
+
+center-align
+----------------
+To Horizontally center block-level elements use margin:auto
+
+Setting up width of an element will prevent from stretching 
+out of the edges of the container.
+
+The element will then take the specified width and remaining space 
+will be split equally between two margins.
+
+CSS Units
+------------
+
+1. Absolute Unit
+-----------------
+
+ a. pixel (px)
+ b. inches (in)
+ c. centimeters (cm)
+ d. millimeters (mm)
+ e. points (pt)
+ f. picas (pc)
+
+
+2. Relative Unit
+-----------------
+
+ a. percentage (%)
+ b. font-sizes (em & rem)
+ c. character-sizes (ex & ch)
+ d. viewport dimensions (vw & vh)
+ e. Viewport max (vmax)
+ f. viewport min (vmin)
+
+ Relative Units are based on 
+ -----------------------------
+
+ 1. The Parent Dimensions (%)
+ 2. The currently declared font attribute (em, rem, ex, ch)
+ 3. The viewport dimensions (vw, vh, vmin, vamx)
+
+ Viewport dimensions
+ -------------------
+ 1. vw - viewport width
+ 2. vh - viewport height
+ 3. vmin - viewport minimum
+ 4. vmax - viewport maximum
+
+ vw, vh divide viewport in a grid of 100 Units
+
+ Viewport - User's visible are of the webpage
+
+ varies with device and will be smaller on a phone than on a computer
+
+ vmin - which uses ratio of smallest size. That is if the height of the
+        browser windows is less than its width 1vmin is equivalent to 1vh.
+        if the the width of the browser is less than its height 1vmin is 
+        equivalent to 1vw
+
+vmax - It uses largest side. 1vmax is equivalent of 1vw if the viewport is 
+       wider than it is tall. if the browser is taller than it is wide 1vmax
+       will be equivalent of 1vh
+
+
+Percentage vs Viewport
+-----------------------
+Since viewport units are a percentage of the size of the viewport, 
+it can seem at first glance that specifying size as percentages would be equivalent.
+
+The difference is that viewport units are always a percentage of the total viewport 
+while percentage value applied on element is a percentage of elements's parent but
+not necessarily the viewport
+
+ ex (character-size)
+ -------------------
+ Relative to the x-height of the current font ( rarely used)
+
+ x-height is roughly the height of lowercase letters such as a,b,c,d..etc
+
+ch (character-size)
+-------------------
+Relative to the width of "0" 
+
+if height is 1ch then that is equal to 8px 
+
+em and rem (font-sizes)
+-----------------------
+em - relative to the font-size of the element ( parent element)
+
+rem - relative to the font-size of the root element.
+
+In almost every browser , 16px is the standard for proportional fonts
+
+user can control the font-size
+
+1 rem =16px
+
+Absolute Units
+--------------
+The absolute length units are fixed and length expressed in any of these will
+appear exatctly that size
+
+You can use if you are aware of output medium ( print, screen)
+
+Not recommended for various screen sizes
+
+cm, mm, in, px, pt,pc
+
+1in = 96px
+1cm = 37.8px
+1mm= 0.1cm = 3.78px
+
+1em == 16px == 0.17 in = 12pt = 1pc == 4.2 mm = 0.42cm 
+
+Inches (in)  1in = 96px = 2.54cm
+---------------------------------
+Inch unit is same as centimeters and used for "Print" media 
+
+Pixel (px)
+----------
+Most uasble and tried measure in browser
+Normalize measure for all devices and display true measurement
+
+Point (pt) (1pt = 1/72th size of an inch)
+-----------------------------------------
+Used for physical measurement.
+
+Picas (pc)  (12pt == 1pc)
+-------------------------
+Pics is same as point 
+
+
+CSS Advanced
+------------
+
+Rounded Corners - Add special colord corners to body or text
+
+border-radius - defines the radius of en element's corner
+
+1. Rounded corner for an elelment with specified background color
+2. Rounded corner for an elelment with a border
+3. Rounded corner for an element with background image
