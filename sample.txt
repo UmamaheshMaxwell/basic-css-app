@@ -725,3 +725,78 @@ border-radius - defines the radius of en element's corner
 1. Rounded corner for an elelment with specified background color
 2. Rounded corner for an elelment with a border
 3. Rounded corner for an element with background image
+
+Background-Radius is a shorhand property for 
+
+1. background-top-left-radius
+2. background-top-right-radius
+3. background-botton-right-radius
+4. background-bottom-left-radius
+
+It can have one to four values
+-------------------------------
+
+With four values
+--------------------
+border-radius : 15px              30px                50px                  15px 
+
+                top-left-corner   top-right-corner   bottom-right-corner    bottom-left corner
+
+with three values
+-------------------
+border-radius : 15px                            30px                               15px 
+
+                top-left-corner   top-right-corner   bottom-left-corner           bottom-right corner
+
+
+with two values
+-------------------
+border-radius :                15px                                                30px                           
+
+                top-left-corner   bottom-right-corner            top-right-corner           bottom-left corner
+
+with one value 
+----------------
+
+border-radius : 25px ( this applies to all four corner)
+
+Border Image
+--------------
+Allows you to specify an image to be ised instead of normal border around your element.
+
+it has three parts :
+--------------------
+
+border-image : url("image")  25%  repeat
+                   1          2    3
+
+1. An image to use as border
+2. Where to slice the image, divide your image into 9 sections
+3. How the browser should apply those sections to the edges of your element
+
+Note :  Cab be applied to any element except internal table values ( tr, th , td) 
+        when border is set to collpase 
+
+Border-Image: border-image-source -  Specifies the source of the image
+              border-image-slice  -  How to slice the border
+              border-image-width  -  Specifies width of the browser
+              border-image-outset -  Specifies the amount by which border image area 
+                                    extends beyond the border box 
+              border-image-repeat - Specifies whether border image should be repeated,
+                                    rounded or strechted
+
+Gradients
+---------
+Gradients displays the comination og two or more colors to your element
+
+
+Types
+-----
+Linear Gradient (down/up/left/right diagonally)
+Radial Gradient
+
+Liner Gradient (Most common format)
+--------------
+direction - top to bottom ( default)
+
+
