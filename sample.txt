@@ -795,8 +795,54 @@ Types
 Linear Gradient (down/up/left/right diagonally)
 Radial Gradient
 
+Gradients uses background image
+
 Liner Gradient (Most common format)
 --------------
 direction - top to bottom ( default)
 
+background-color - can be treated like fallback 
 
+background-image - will be be on top if browsers supports it
+
+background : red
+background : linear-gradient (red, orange)
+
+- This will reset other properties like background-position but it does know what we mean
+
+Gradient axis can go from left to right or right to left or top to bottom or any angle 
+that we choose.
+
+Not declaring any angle will assume top to bottom
+
+to make it left to right we pass additional parameter at the begining.
+
+Starting with word "to" indicating direction like "to right"
+
+This syntax works for corners as well. For instance if you wanted the axis of the gradient 
+to start at the bottom left corner to go to the top right corner we can say "to top right"
+
+You can also declare where you want any perticular color to start and those are called 
+color-stops.
+
+if you want more red then say red 10%, yellow, if you want more yellow the say 
+yellow 10% red
+
+Radial Gradient
+----------------
+
+This differes from linear, it starts at a single point and emanate outwards
+
+The default is for the first color to start in the center of the element and fade to the 
+end color towrads the edge of the element.
+
+We need at least two colors to define radial gradient
+
+readial-gradient (shape , start color, ...., last color)
+
+by default shape is ellipse
+
+Transistions
+------------
+
+allows to change the property values smoohtly over given duration
