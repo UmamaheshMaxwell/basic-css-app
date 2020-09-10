@@ -846,3 +846,52 @@ Transistions
 ------------
 
 allows to change the property values smoohtly over given duration
+
+
+transistion 
+transition-delay 
+transistion-duration 
+transition-property
+transition-Timing-function
+
+1. CSS property you want to add an effect to 
+2. the duration of the effect
+
+Note: If the durration is not specified then transistion will have no effect
+-----
+
+Transistion-Timing-Function
+---------------------------
+Specifies the speed curve of the transistion effect
+
+can have following values
+
+1. ease - specifies a transistion effect with a slow start , then fast and end slowly (default)
+2. linear - specifies transition effect with same speed from start to end
+3. ease-in - specifies transition effect with slow start
+4. ease-out - specifies transistion effect with slow end
+5. ease-in-out - specifies transition effect with slow start and end
+
+
+Transform
+----------
+allows us to move, rotate, scale and skew elements
+
+1. transalate - moves an elelement from its current position ( according to X-axis and Y-axis)
+
+
+Position: absolute vs transform
+------------------------
+Position:absolute - This is placed according to its parent element, changes accroding 
+           to parent's position
+        
+transform - This is based on itself, if the object is moved it will transalate 
+            according to its new position
+
+2. rotate - will rotate an element clockwise or anti-clockwise 
+            according to given degree
+
+3.scale - increases or decreases the size of an elelemnt (width and height)
+
+scaleX - increase or decraese width of an element
+scaleY - increase or decraese height of an element
