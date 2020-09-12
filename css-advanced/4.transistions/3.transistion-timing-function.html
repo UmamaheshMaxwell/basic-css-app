@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Transistion Timely function</title>
+    <title>Transistion timing function</title>
     <style>
         div {
             width: 100px;
             height: 100px;
             background-color: cornflowerblue;
-            transition-property: background-color;
-    transition-duration: 2s;
-    transition-timing-function: ease-out;
+            transition: width 2s;
+        }
+
+        .one {
+            transition-timing-function:ease
+        }
+
+        .two {
+            transition-timing-function:linear
+        }
+
+        .three {
+            transition-timing-function:ease-in
+        }
+
+        .four {
+            transition-timing-function:ease-out
+        }
+
+        .four {
+            transition-timing-function:ease-in-out
         }
 
         div:hover {
-            background-color: #0099CC;
+           width: 300px;
         }
     </style>
 </head>
 <body>
     <h1>Transistion Timely Function</h1>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-    <div class="one">linear</div>
-
-    <p>This is another paragraph</p>
+    <div class="one">Ease</div><br>
+    <div class="two">linear</div><br>
+    <div class="three">ease-in</div><br>
+    <div class="four">ease-out</div><br>
+    <div class="four">ease-in-out</div><br>
 </body>
 </html>

@@ -895,3 +895,58 @@ transform - This is based on itself, if the object is moved it will transalate
 
 scaleX - increase or decraese width of an element
 scaleY - increase or decraese height of an element
+
+skew
+-------
+Skews an element along the x and y axis
+
+skewX - skews element along the x-axis by given angle
+---------
+
+transform:skewX(20deg)
+
+skewX - skews element along the y-axis by given angle
+
+transform:skewY(10deg)
+
+matrix
+--------
+This combines all 2D transformatiosn into one
+
+matrix (scaleX(),skewY(), skewX(),scaleY(), transalate())
+
+3D Transform
+------------
+This uses X , Y and Z axis
+
+rotateX - rotate an elelemnt around X-axis
+rotateY - rotate an elelemnt around Y-axis
+rotateZ - rotate an elelemnt around Z-axis
+
+CSS Variables
+-------------
+Gives us a way /mechanism to reuse and easiliy change "repeatedly ouucring CSS propertis"
+
+To declare CSS variable we will have to add a double dash before the name of the variable
+
+body {
+    --indian-green-color: #00FF00
+    --main-text-color : red
+    --div-background-color:yellow
+}
+
+:root { // pseudo class element
+
+}
+
+ html {
+
+ }
+
+complex websites and have very large amounts of css often with repated values
+
+custome properties allows a value to be stored in one place
+refrenced in multiple places
+semantic identifiers
+
+--maint-text-color eaiser to understand 

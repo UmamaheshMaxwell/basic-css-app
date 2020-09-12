@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --div-background-color: #00FF00;
+            --div-width:200px;
+            --div-height:100px;
+        }
+
+        .one, .two {
+            background-color: var(--div-background-color);
+            width: var(--div-width);
+            height: var(--div-height);
+        }
+    </style>
+</head>
+<body>
+    <div class="one"></div><br>
+    <div class="two"></div>
+</body>
+</html>
